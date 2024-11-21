@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 echo "count"
 read -p "Enter count: " n
 sum=0

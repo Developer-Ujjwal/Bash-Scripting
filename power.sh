@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 read -p "Enter a Base: " base
 read -p "Enter a power " power
 ans=1

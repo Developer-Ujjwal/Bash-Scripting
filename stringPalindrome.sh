@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 read -p "Enter a string: " str
 str=${str,,}
 str=${str// /}

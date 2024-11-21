@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 read -p "Enter the last number: " n
 read -p "Enter the number: " m
 for ((i = 2; i <= n; i++)); do

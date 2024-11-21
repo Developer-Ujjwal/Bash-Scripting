@@ -1,4 +1,4 @@
-#! usr/bin/bash
+#!/usr/bin/bash
 sort_array() {
 
     for ((i = 0; i < n; i++)); do
