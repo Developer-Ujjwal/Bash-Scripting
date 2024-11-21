@@ -20,4 +20,3 @@ is_palindrome() {
 
 read -p "Enter a number: " number
 is_palindrome $number
-

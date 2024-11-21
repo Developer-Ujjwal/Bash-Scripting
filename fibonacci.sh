@@ -7,7 +7,7 @@ fibonacci() {
 
     echo -n "$a $b "
 
-    for (( i=2; i<limit; i++ )); do
+    for ((i = 2; i < limit; i++)); do
         local temp=$((a + b))
         echo -n "$temp "
         a=$b
@@ -17,9 +17,9 @@ fibonacci() {
 }
 read -p "Enter the limit: " limit
 
-if (( limit == 1 )); then
+if ((limit == 1)); then
     echo 0
-elif (( limit == 2 )); then
+elif ((limit == 2)); then
     echo "0 1"
 else
     fibonacci $limit
