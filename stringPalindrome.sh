@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 read -p "Enter a string: " str
-str=${str,,}
-str=${str// /}
-n=${#str}
+str=${str,,}  # Convert to lowercase
+str=${str// /}  # Remove spaces
+n=${#str}  # Length of the string
+# {str^^} convert to uppercase
 isPalindrome=1
 for ((i = 0, j = n - 1; i <= j; i++, j--)); do
     if [ "${str:i:1}" != "${str:j:1}" ]; then
